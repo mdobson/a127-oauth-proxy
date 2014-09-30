@@ -1,0 +1,42 @@
+{
+  "name": "a127-starter",
+  "version": "0.0.1",
+  "private": "true",
+  "description": "My new Apigee 127 Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "3.7.x",
+    "a127-magic": "",
+    "volos-analytics-apigee": "",
+    "volos-analytics-common": "",
+    "volos-analytics-memory": "",
+    "volos-cache-apigee": "",
+    "volos-cache-memory": "",
+    "volos-cache-redis": "",
+    "volos-quota-apigee": "",
+    "volos-quota-memory": "",
+    "volos-quota-redis": "",
+    "volos-oauth-redis": "",
+    "volos-oauth-apigee": "",
+    "usergrid": "^0.10.7",
+    "argo": "^0.5.0"
+  },
+  "devDependencies": {
+    "should": "3.1.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "api": {
+    "name": "a127-starter",
+    "basePath": "/a127-starter",
+    "docsPath": "/docs",
+    "main": "app.js"
+  },
+  "dist": {
+    "shasum": "7eda424c16e7b9995ec62d25bfc688ebc9b2641e"
+  }
+}
